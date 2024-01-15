@@ -1,0 +1,32 @@
+{
+  "name": "wilkinszhang",
+  "version": "1.0.0",
+  "description": "Wilkins Zhang's GitHub Profile",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "build:watch": "npx tsc-watch",
+    "start": "npm run build && node build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilkinszhang/wilkinszhang.git"
+  },
+  "author": "Wilkins Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilkinszhang/wilkinszhang/issues"
+  },
+  "homepage": "https://github.com/wilkinszhang/wilkinszhang#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "markdown-it": "^13.0.2",
+    "rss-parser": "^3.13.0",
+    "tsc-watch": "^6.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.3.3"
+  }
+}
